@@ -200,6 +200,7 @@ ul {
   margin: 0 auto;
   height: 240px;
   width: 400px;
+  max-width: 100%;
   object-fit: cover;
   border: 2px solid var(--borderColor);
 }
@@ -310,7 +311,7 @@ ul {
 }
 
 .kudos_pic {
-  width: 100%;
+  max-width: 100%;
 }
 
 .post_wrap {
@@ -409,5 +410,41 @@ ul {
 
   .greeting-wrapper h1 {
     font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .left-column,
+  .right_column,
+  .post {
+    max-width: 100%;
+  }
+
+  #profile_pic,
+  .fgShadow,
+  .bg {
+    width: 70%;
+    height: auto;
+  }
+  .skills {
+    width: 80%;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+  h6 {
+    font-size: 10px;
   }
 }
