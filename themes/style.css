@@ -83,6 +83,14 @@ ul {
   overflow: auto;
 }
 
+.quotes_sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainColor);
+}
+
 .greeting-wrapper {
   display: grid;
   min-height: 10em;
